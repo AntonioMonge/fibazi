@@ -1285,7 +1285,7 @@
 		/**
 		 * RD Mailform
 		 * @version      3.2.0
-		 */
+
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 					msg = {
@@ -1333,7 +1333,7 @@
 
 								$.ajax({
 									method: "POST",
-									url: "bat/reCaptcha.php",
+									url: "/prueba",
 									data: {'g-recaptcha-response': captchaToken},
 									async: false
 								})
